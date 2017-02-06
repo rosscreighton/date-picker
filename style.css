@@ -1,0 +1,26 @@
+#calendar-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.button-container {
+  width: 100%;
+}
+
+button:first-of-type {
+  float: left;
+}
+
+button:last-of-type {
+  float: right;
+}
+
+.day {
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+}
+
+.active {
+  background-color: blue;
+}
